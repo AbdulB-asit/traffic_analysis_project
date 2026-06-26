@@ -1,0 +1,25 @@
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Virtual Environments (if you ever use them)
+venv/
+env/
+.venv/
+
+# Massive Raw Datasets (Prevents GitHub 100MB crash)
+raw_traffic_data.csv
+*.csv
+
+# Generated Big Data Storage (Parquet Partitions)
+storage_layer/
+*.parquet
+
+# IDE and OS hidden files
+.idea/
+.vscode/
+.DS_Store
+
+# (Note: We intentionally leave visualizations/ OUT of this list 
+# so you can push your PNGs to GitHub for your README presentation)

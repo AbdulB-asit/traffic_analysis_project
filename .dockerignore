@@ -1,0 +1,21 @@
+# Version Control
+.git/
+.gitignore
+
+# Documentation
+README.md
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Data and Storage (The container will generate these locally)
+raw_traffic_data.csv
+storage_layer/
+
+# Previous Visualizations (The container will generate fresh ones)
+visualizations/
+
+# Docker config files
+docker-compose.yml
+.dockerignore
